@@ -1,0 +1,6 @@
+appliance_id,appliance_name,rated_power_watts,energy_consumption_kwh,duration_minutes,earliest_start_time,latest_start_time,interruptible,priority,preferred_start_time,segment_minutes
+A01,Washing Machine,2000,4.0,120,06:00,21:30,False,3,18:00,120
+A02,Dishwasher,1500,3.0,120,12:00,22:00,False,2,20:30,120
+A03,HVAC,2500,15.0,360,06:00,18:00,True,1,14:00,60
+A04,EV Charger,3500,14.0,240,00:00,07:00,True,2,02:00,60
+A05,Water Heater,2000,2.0,60,06:00,20:00,False,2,12:00,60
