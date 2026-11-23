@@ -13,18 +13,7 @@ from src.fitness_function import create_daily_evaluators
 
 
 class MemeticAlgorithm(GeneticAlgorithm):
-    """
-    Memetic Algorithm = Genetic Algorithm + Local Search.
-
-    It reuses everything from the GA (create_population, select_parent,
-    crossover, mutate), so the GA and the MA always use the SAME fitness
-    evaluator and the SAME genetic operators.
-
-    The only difference is one extra step in every generation:
-    after crossover and mutation, some children are improved with a small
-    local search that shifts gene start times 1 slot (30 minutes) earlier
-    or later, and keeps a shift only if the fitness gets better.
-    """
+    
 
     def __init__(
         self,
@@ -98,13 +87,7 @@ class MemeticAlgorithm(GeneticAlgorithm):
     # -----------------------------------------------------
 
     def local_search(self, chromosome, fitness):
-        """
-        Repeat: look at all neighbors, move to the best one if it is
-        better than the current chromosome. Stop when nothing improves
-        or after local_search_iterations rounds.
-
-        Returns the improved chromosome and its fitness.
-        """
+        
         current = chromosome.copy()
         current_fitness = fitness
 
