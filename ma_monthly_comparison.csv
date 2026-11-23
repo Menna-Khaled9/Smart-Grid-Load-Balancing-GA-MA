@@ -1,0 +1,5 @@
+metric,original,optimized,improvement_percent
+total_cost,221.91638809,121.8661053,45.08467520182592
+grid_import_kwh,1157.2224,926.2803999999999,19.956578787275483
+peak_grid_import_kw,5.6399,3.8423000000000003,31.872905547970703
+constraint_violations,0.0,0.0,0.0

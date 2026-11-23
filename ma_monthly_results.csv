@@ -1,0 +1,2 @@
+total_consumption_kwh,appliance_consumption_kwh,grid_import_kwh,total_cost,solar_generation_kwh,solar_utilization_percent,peak_household_demand_kw,peak_grid_import_kw,average_daily_peak_grid_import_kw,constraint_violations
+1442.5033500000002,1140.0,926.2803999999999,121.8661053,539.9299000000001,95.60925409020687,4.8218000000000005,3.8423000000000003,3.766503333333333,0

@@ -13,7 +13,6 @@ from src.fitness_function import create_daily_evaluators
 
 
 class MemeticAlgorithm(GeneticAlgorithm):
-    
 
     def __init__(
         self,
